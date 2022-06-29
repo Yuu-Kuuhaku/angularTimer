@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
-![AngularTimer](https://dragon.img2go.com/pt/download-file/61bda1b4-6a29-45dd-b31a-3c0a226009d1/7feffaf7-e88e-40a8-84a2-3d454b57663e?qr=true)
+![AngularTimer](https://raw.githubusercontent.com/Yuu-Kuuhaku/angularTimer/master/src/assets/angularTimer.gif)
 
 ## Development server
 
