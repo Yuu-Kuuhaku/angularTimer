@@ -8,14 +8,14 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class PageTimerComponent implements OnInit {
 
-  minDate: String;
+  // minDate: String;
   date!: any;
   dateControl: FormControl ;
   constructor() {
     this.dateControl = new FormControl();
 
-    let now = new Date();
-    this.minDate = now.getUTCFullYear() + '-' + ( (now.getUTCMonth() + 1).toString().padStart(2, '0') ) + '-'+ (now.getUTCDate().toString().padStart(2, '0') )
+    this.date =  new Date('2022-10-29T16:00:00.000Z');
+    console.log(this.date);
   }
 
   ngOnInit(): void {
