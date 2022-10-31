@@ -14,7 +14,7 @@ export class PageTimerComponent implements OnInit {
   constructor() {
     this.dateControl = new FormControl();
 
-    this.date =  new Date('2022-10-29T16:00:00.000Z');
+    this.date =  new Date('2022-11-05T19:00:00.000Z');
     console.log(this.date);
   }
 
