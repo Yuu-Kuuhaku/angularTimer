@@ -4,10 +4,8 @@
      
       
       <div style="margin-top: 2%; font-size: 2.0rem;">
-        <span id="days"> {{daysToDday}} </span>Dia(s)
-        <span id="hours"> {{hoursToDday}} </span>h
-        <span id="minutes"> {{minutesToDday}} </span>Min
-        <span id="seconds"> {{secondsToDday}} </span>s
+        <span id="days"> {{daysToDday}} Dia{{ (daysToDday > 1) ? 's': ''}}</span>
+        <span id="hours"> {{hoursToDday.toString().length == 1 ?("0" + hoursToDday):hoursToDday }}</span>:<span id="minutes">{{minutesToDday.toString().length == 1 ? ("0" + minutesToDday): minutesToDday }}</span>:<span id="seconds">{{secondsToDday.toString().length == 1 ? ("0" + secondsToDday): secondsToDday }}</span>
       </div>
 
       <!-- <div>
